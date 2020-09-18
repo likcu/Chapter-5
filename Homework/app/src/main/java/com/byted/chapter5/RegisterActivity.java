@@ -59,7 +59,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<UserResponse> call, Throwable t) {
-                        Toast.makeText(RegisterActivity.this,"网络失" + t.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(RegisterActivity.this,"网络失败" + t.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
 
